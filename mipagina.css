@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.6fr 2.9fr 0.7fr 0.1fr;
+  grid-template-rows: 0.4fr 2fr 0.6fr;
+  grid-template-areas: "encabezado encabezado encabezado ." "menu contenido anuncios ." "menu pie-de\ pagina redes-sociales .";
+}
+
+.encabezado {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "Logo Titulo buscador" "Logo desplegable buscador";
+  grid-area: encabezado;
+}
+
+.Logo { grid-area: Logo; }
+
+.buscador { grid-area: buscador; }
+
+.Titulo { grid-area: Titulo; }
+
+.desplegable { grid-area: desplegable; }
+
+.menu { grid-area: menu; }
+
+.contenido { grid-area: contenido; }
+
+.pie-de\ pagina { grid-area: pie-de\ pagina; }
+
+.anuncios { grid-area: anuncios; }
+
+.redes-sociales { grid-area: redes-sociales; }
